@@ -1,9 +1,11 @@
 .vierkant{
     width: 150px;
     height: 150px;
+    display: inline-block;
 }
 
 .rechthoek {
     width: 250px;
     height: 1050x;
+    display: inline-block;
 }
