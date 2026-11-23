@@ -40,7 +40,7 @@ $("#hideMe").click(function () {
 
 // 8. move me: de gele rechthoek verplaatst
 $("#moveMe").click(function () {
-    $(this).animate({ marginLeft: "+=50px" });
+    $(this).css("position", "relative").animate({ left: "+=50px" });
 });
 
 // 9. fill with random color: vult met een willekeurige kleur
